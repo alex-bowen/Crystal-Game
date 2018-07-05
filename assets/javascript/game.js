@@ -2,10 +2,15 @@ $( document ).ready(function() {
     console.log( "ready!" );
 
 
-
 var totalScore = 0;
 var wins = 0;
 var losses = 0;
+var randomGoal; 
+
+var crystalValue1;
+var crystalValue2;
+var crystalValue3;
+var crystalValue4;
 
 // Generate random number for user to try to guess/add up to with buttons.
 
@@ -15,15 +20,15 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min; 
   }
 
-var randomGoal = getRandomInt(19, 120);
+randomGoal = getRandomInt(19, 120);
 $("#goalNumber").text(randomGoal);
 
 // Generate random numbers and assign them to gems.
 
-    var crystalValue1 = getRandomInt(1, 12);
-    var crystalValue2 = getRandomInt(1, 12);
-    var crystalValue3 = getRandomInt(1, 12);
-    var crystalValue4 = getRandomInt(1, 12);
+    crystalValue1 = getRandomInt(1, 12);
+    crystalValue2 = getRandomInt(1, 12);
+    crystalValue3 = getRandomInt(1, 12);
+    crystalValue4 = getRandomInt(1, 12);
     
     console.log("Crystal one: " + crystalValue1);
     console.log("Crystal two: " + crystalValue2);
@@ -54,14 +59,12 @@ $("#gem4").click(function() {
 })
 
 
-// Push to wins/losses html under conditions
+// Push to wins/losses under conditions
 
 if (totalScore === randomGoal) {
     wins++;
-
 } else if (totalScore > randomGoal) {
     losses++;
-
 }
 
 console.log("Wins: " + wins);
