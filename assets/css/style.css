@@ -1,0 +1,86 @@
+body {
+    background-image: url("../images/bg.png"); 
+    margin: auto;
+    margin-top: 20px;
+    max-width: 500px;
+    font-family: monospace;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 90px;
+    height: auto;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+.game {
+    border: black solid 1px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#bigtitle {
+    background-color: #D48A97;
+    width: 450px;
+    height: 45px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 45px;
+}
+
+#instructions {
+    background-color: #CEB9DA;
+    width: 450px;
+    height: 280px;
+    line-height: 20px;
+
+}
+
+#random-number {
+    background-color: #82A8BD;
+    width: 250px;
+    height: 100px;
+    text-align: left;
+    margin-right: 20px;
+    float: left;
+    font-size: 40px;
+}
+
+#tallies {
+    background-color: #85cf85;
+    width: 148px;
+    height: 100px;
+    text-align: left;
+    padding-left: 20px;
+    float: left; 
+}
+
+#crystal-buttons {
+    clear: both;
+    width: 450px;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+#total {
+    width: 450px;
+    background-color: #D48A97;
+
+}
+
+#total-score {
+    width: 450px;
+    font-size: 40px;
+    background-color: #D48A97;
+
+}

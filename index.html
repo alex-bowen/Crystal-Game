@@ -11,9 +11,9 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
 <body>
-    <h1>Cyrstals Collector!</h1>
+    <h1 class = "game" id="bigtitle">Crystals Collector!</h1>
 
-    <div id="instructions">
+    <div class = "game" id="instructions">
         <p>You will be given a random number at the start of the game.</p>
 
         <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
@@ -25,25 +25,32 @@
         <p>Each time the game restarts, the value of each crystal will change.</p>
     </div>
 
-    <div id="random-number">
-        <h2></h2>
+    <div class = "game" id="random-number">
+        <h2>00</h2>
     </div>
 
-    <div id="tallies">
-        <p id="exclamation"></p>
-        <p id="wins-tally"></p>
-        <p id="losses-tally"></p>        
+    <div class = "game" id="tallies">
+      <ul>
+        <li id="exclamation">You win!</li>
+        <li id="wins-tally">00</li>
+        <li id="losses-tally">00</li>        
+      </ul>
     </div>
    
-    <div id="crystal-buttons">
-        
+    <div class = "game" id="crystal-buttons">
+        <img id="gem1" src="assets/images/gem1.png">
+        <img id="gem2" src="assets/images/gem2.png">
+        <img id="gem3" src="assets/images/gem3.png">
+        <img id="gem4" src="assets/images/gem4.png">
+
+    
 
     </div>
 
-    <div class = "totalscore">
+    <div class = "game" id = "total">
         <p>Your total score is: </p>
 
-        <h1 id="total-score"></h1>
+        <h1 id="total-score">00</h1>
 
     </div>
     
