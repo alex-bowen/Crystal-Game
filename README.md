@@ -62,9 +62,6 @@ This version of the Crystal(s) Collector game was created by Alex Bowen (github.
           function tally() {
               if (totalScore === randomGoal) {
                   wins++;
-
-                  console.log("Wins: " + wins);
-                  console.log("Losses: " + losses);
                   // change html
                   $("#wins-tally").text("Wins: " + wins);
                   $("#exclamation").html("You win!");
@@ -74,8 +71,6 @@ This version of the Crystal(s) Collector game was created by Alex Bowen (github.
 
               } else if (totalScore > randomGoal) {
                   losses++;
-                  console.log("Wins: " + wins);
-                  console.log("Losses: " + losses);
                   // change html
                   $("#losses-tally").text("Losses: " + losses);
                   $("#exclamation").text("You lose!");
@@ -101,3 +96,4 @@ This version of the Crystal(s) Collector game was created by Alex Bowen (github.
             }
   
   
+  You may email me with any questions at alexbowen2017@gmail.com! 
