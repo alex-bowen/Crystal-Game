@@ -57,7 +57,7 @@ img {
 #random-number {
     background-color: #82A8BD;
     width: 250px;
-    height: 100px;
+    height: 90px;
     text-align: left;
     margin-right: 20px;
     float: left;
@@ -68,9 +68,10 @@ img {
 #tallies {
     background-color: #85cf85;
     width: 148px;
-    height: 100px;
+    height: 90px;
     text-align: left;
     padding-left: 20px;
+    padding-top: 10px;
     float: left; 
 }
 
