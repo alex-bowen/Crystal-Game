@@ -1,5 +1,3 @@
-// Thanks for looking! 
-
 $(document).ready(function () {
     console.log("ready!");
 
