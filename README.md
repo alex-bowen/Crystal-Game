@@ -1,6 +1,11 @@
 # unit-4-game
 
-This version of the Crystal(s) Collector game was created by Alex Bowen (github.com/alex-bowen). This project uses jQuery and JavaScript to create a game similar to _blackjack_. Here's how the game works: 
+This version of the Crystal(s) Collector game was created by Alex Bowen (github.com/alex-bowen). This project uses jQuery and JavaScript to create a game similar to _blackjack_. 
+
+![screen cap](./images/cap.PNG)
+
+
+Here's how the game works: 
 
 
   ### 1) The player is given a *random number* (randomGoal) at the start of the game.
