@@ -2,7 +2,7 @@
 
 This version of the Crystal(s) Collector game was created by Alex Bowen (github.com/alex-bowen). This project uses jQuery and JavaScript to create a game similar to _blackjack_. 
 
-![screen cap](./images/cap.PNG)
+![screen cap](./assets/images/cap.PNG)
 
 
 Here's how the game works: 
